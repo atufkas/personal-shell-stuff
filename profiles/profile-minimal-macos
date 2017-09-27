@@ -1,0 +1,21 @@
+#
+# Minimal MacOS bash profile
+#
+# Standard prompt (just to remember it)
+#export PS1="\u@\h:\w\$ "
+# Shell prompt: time-user@hostname:directAory$
+export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+# Set CLI colors
+export CLICOLOR=1
+# Define colors (FreeBSD/MacOS)
+export LSCOLORS="Exfxcxdxbxegedabagacad"
+# Use vim as standard editor
+export EDITOR=vim
+
+# List aliases
+alias ll='ls -l'
+alias l='ls -CF'
+
+# Aliases for doing greps in dev envs
+alias rgrep="grep -r"
+alias srgrep="rgrep --exclude-dir=\"\.svn\" --exclude-dir=\"\.git\""

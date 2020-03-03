@@ -21,3 +21,7 @@ alias cdic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 # Aliases for doing greps in dev envs
 alias rgrep="grep -r"
 alias srgrep="rgrep --exclude-dir=\"\.svn\" --exclude-dir=\"\.git\""
+
+# Special Mac/Apple aliases
+alias cdicloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
+
